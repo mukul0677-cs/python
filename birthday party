@@ -1,0 +1,17 @@
+d=input("today is your birthday y or n")
+sp=int(input("speed"))
+if d=='n':
+    if sp<60:
+        print("no ticket")
+    elif sp>60 and sp<81:
+         print("small ticket")
+    elif sp>80 :
+        print("big ticket")
+else:
+    if sp<=65 :
+        print("no ticket")
+    elif sp>65 and sp<86:
+        print("small ticket")
+    elif sp>85 :
+        print("big ticket")
+        
